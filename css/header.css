@@ -1,0 +1,15 @@
+.sectionHeader {
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+.jumbotron {
+    background: url('../assets/purpleField.jpg') center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding-top: 45vh;
+    text-align: center;
+    /* opacity: 75%; */
+}

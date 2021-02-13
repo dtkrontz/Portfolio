@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    height: 5vh;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+
+.navbar {
+    color: white;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.container-fluid {
+    display: inline-block !important;
+}
+
+.navbar-toggler {
+    float: left;
+}
+
+.navbar-brand {
+    float: right;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
