@@ -19,12 +19,7 @@ nav {
     display: inline-block !important;
 }
 
-.navbar-toggler {
-    float: left;
-}
-
 .navbar-brand {
-    float: right;
     color: white !important;
 }
 

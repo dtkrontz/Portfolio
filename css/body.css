@@ -1,14 +1,15 @@
 body {
     background-color: rgb(100, 100, 100);
     color: white;
+    overflow-x: hidden;
 }
 
 .section {
     padding-top: 5vh;
     padding-bottom: 5vh;
+    display: block;
 }
 
-#aboutMe {
-    background-color:  rgb(115, 115, 115);
-    color: white
+.row {
+    margin: 20px 0px 10px 0px;
 }

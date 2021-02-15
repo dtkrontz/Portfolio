@@ -1,4 +1,4 @@
-@import 'about.css';
+@import 'aboutMe.css';
 @import 'body.css';
 @import 'contact.css';
 @import 'footer.css';
@@ -6,3 +6,9 @@
 @import 'navbar.css';
 @import 'projects.css';
 @import 'variables.css';
+
+/* @include media-breakpoint-up(sm) {
+    .custom-class {
+      display: block;
+    }
+  } */
