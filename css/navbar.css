@@ -11,6 +11,18 @@ nav {
     color: white;
 }
 
+.show {
+    background: black;
+    opacity: 75%;
+    width: 8rem;
+}
+
+.colapsing {
+    background: black;
+    opacity: 75%;
+    width: 8rem;
+}
+
 .bg-light {
     background-color: transparent !important;
 }
@@ -25,4 +37,8 @@ nav {
 
 .nav-link {
     color: white !important;
+}
+
+.hidden {
+    background-color:gold;
 }
