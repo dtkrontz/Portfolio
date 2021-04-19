@@ -6,3 +6,9 @@
 @import 'navbar.css';
 @import 'projects.css';
 @import 'variables.css';
+
+/* @include media-breakpoint-up(sm) {
+    .custom-class {
+      display: block;
+    }
+  } */

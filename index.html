@@ -10,13 +10,14 @@
 </head>
 <body>
     <div class="fullPage">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="hide">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Dustin Krontz</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <a class="navbar-brand" id="brand" href="#">Dustin Krontz</a>
+              
                 <div class="navbar-nav">
                   <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
                   <a class="nav-link" href="#projects">Projects</a>
@@ -52,40 +53,36 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                        <h4 class="projectHeaders">Static Layout</h4>
-                        <a class="projectItem" href="" target="blank" title="staticLayout"><img src="assets/placeholder.jpeg"></a>
+                    <div class="col-sm-4">
+                        <h4 class="projectHeaders">KAST Static Layout</h4>
+                        <a class="projectItem" href="https://dtkrontz.github.io/staticLayoutProject/" target="blank" title="staticLayout"><img class="thumbnail" src="./assets/KASTStaticLayout.png" alt="iceCream"></a>
                     </div>
-                    <div class="col-4">
-                        <h4 class="projectHeaders">A simple design using HTML & CSS</h4>
-                        <a class="projectItem" href="" target="blank" title="HTML&CSS"><img src="assets/placeholder.jpeg"></a>
+                    <div class="col-sm-4">
+                        <h4 class="projectHeaders">A simple CSS design</h4>
+                        <a class="projectItem" href="https://codepen.io/dtkrontz/full/JjRQzjb" target="blank" title="HTML&CSS"><img class="thumbnail" src="./assets/iceCream.png" alt="iceCream"></a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4">
                         <h4 class="projectHeaders">Pokemon API</h4>
-                        <a class="projectItem" href="" target="blank" title="pokemonAPI"><img src="assets/placeholder.jpeg"></a>
+                        <a class="projectItem" href="https://dtkrontz.github.io/Pokemon-API/" target="blank" title="pokemonAPI"><img class="thumbnail" src="./assets/PokemonAPI.png" alt="iceCream"></a>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row" >
-                    <div class="col-4">
-                        <h4 class="projectHeaders">Second API</h4>
+                    <div class="col-sm-4">
+                        <h4 class="projectHeaders">GIPHY API</h4>
+                        <a class="projectItem" href="https://dtk-giphy-api.web.app/" target="blank"><img class="thumbnail" src="./assets/GIPHYAPI.png" alt="iceCream"></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- <h4 class="projectHeaders">GIPHY API</h4>
+                        <a class="projectItem" href="https://dtk-giphy-api.web.app/" target="blank"><img class="thumbnail" src="./assets/GIPHYAPI.png" alt="iceCream"></a> -->
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- <h4 class="projectHeaders">GIPHY API</h4>
+                        <a class="projectItem" href="https://dtk-giphy-api.web.app/" target="blank"><img class="thumbnail" src="./assets/GIPHYAPI.png" alt="iceCream"></a> -->
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <a class="projectItem" href="" target="blank"><img src="assets/placeholder.jpeg"></a>
-                    </div>
-                    <div class="col-4">
-
-                    </div>
-                    <div class="col-4">
-                        
-                    </div>
-                </div>
-            </div> 
         </section>
         <section id="aboutMe" class="section">
             <div class="container">
@@ -95,16 +92,15 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-1"></div>
-                    <div class="col-4">
+                    <div class="col-sm-4">
                        <div class="picture">
-                           <img src="../portfolio/assets/faceTwo.jpg" class="image">
+                           <img src="./assets/faceTwo.jpg" class="image">
                        </div>
                     </div>
-                    <div class="col-6">
-                        <p>Hello, my name is Dustin. I have just started my career as a developer. I am currently enrolled in Eleven Fifty's Web Development Bootcamp. I have a drive to learn new things and I always try to fully understand things. 
+                    <div class="col-sm-8">
+                        <p>Hello, my name is Dustin. I started Project Management in 2014 at a custom tool and die manufacturing company. I received the PMP (Project Management Professional) credential in April 2019, and spent two years consulting for Fortune 500 companies on some of their high priority projects. I have just started my career as a developer, and am now currently enrolled in Eleven Fifty's Web Development Bootcamp. I enjoy problem solving and theoretically saving the world through new ideas. I have a drive to better myself so that I can better the people around me, and I strive to accomplish this each day. 
                         </p>
-                        <p>If you would like, please reach out to me via <a href="https://www.linkedin.com/in/dustin-krontz/" class="linkedIn" id="linkedInAbout" target="blank">LinkedIn</a>, visit my <a href="https://github.com/dtkrontz" class="github" id="linkedInContact" target="blank">GitHub</a>, or download my <a href="https://www.linkedin.com/in/dustin-krontz/" class="resume" id="linkedInContact" target="blank">Resume</a> here or in the contact infomation section below.</p>
+                        <p>If you would like, please reach out to me via <a href="https://www.linkedin.com/in/dustin-krontz/" class="linkedIn" id="linkedInAbout" target="blank">LinkedIn</a>, visit my <a href="https://github.com/dtkrontz" class="github" id="linkedInContact" target="blank">GitHub</a>, or download my <a href="./assets/Dustin Krontz Resume.pdf" download class="resume" id="linkedInContact" target="blank">Resume</a> here or in the contact infomation section below.</p>
                     </div>
                     <div class="col-1"></div>
                 </div>
@@ -115,9 +111,10 @@
             </br>
             </br>
             <div class="row">
-                <div class="col-8">
+                <div class="col-1"></div>
+                <div class="col-6">
                     <h2 class="sectionHeader" id="contactMe">Contact Me</h2>
-                    <form action="https://formspree.io/dtkrontz@gmail.com" method="POST">
+                    <form action="https://formspree.io/f/mleoknkb" method="POST">
                         <div class="control-group">
                             <div class="form-group">
                                 <label>Name:</label>
@@ -150,7 +147,8 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-4" id="contactInfo">
+                <div class="col-sm-4" id="contactInfo">
+                    <br>
                     <br>
                     <br>
                     <br>
@@ -161,8 +159,9 @@
                     <p>Anderson, Indiana</p>
                     <p><a href="https://www.linkedin.com/in/dustin-krontz/" class="linkedIn" id="linkedInContact" target="blank">LinkedIn</a></p>
                     <p><a href="https://github.com/dtkrontz" class="github" id="linkedInContact" target="blank">GitHub</a></p>
-                    <p><a href="https://www.linkedin.com/in/dustin-krontz/" class="resume" id="linkedInContact" target="blank">Resume</a></p>
+                    <p><a href="./assets/Dustin Krontz Resume.pdf" download class="resume" id="linkedInContact" target="blank">Resume</a></p>
                 </div>
+                <div class="col-1"></div>
             </div>
             </div>
         </section>
@@ -171,6 +170,18 @@
         </section>
     </div>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("hide").className = "hidden";
+    } else {
+        document.getElementById("hide").className = "";
+    }
+    }
+
+    </script>
 </body>
 </html>
