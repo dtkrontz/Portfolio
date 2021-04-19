@@ -1,0 +1,20 @@
+#projects {
+    background-image: linear-gradient(to top left, rgb(115, 115, 115), rgb(50, 50, 50));
+    color: white
+}
+
+.projectHeaders {
+    text-align: center;
+    vertical-align: center;
+    margin: 20px 0px 10px 0px;
+}
+
+.projectItem {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    
+}

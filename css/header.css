@@ -1,7 +1,9 @@
 .sectionHeader {
     text-align: center;
     font-size: 36px;
-    text-decoration: underline;
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .jumbotron {
@@ -13,4 +15,8 @@
     padding-top: 45vh;
     text-align: center;
     /* opacity: 75%; */
+}
+
+#headerName {
+    font-weight: 400;
 }

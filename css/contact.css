@@ -6,3 +6,22 @@
     color: white;
 }
 
+.linkedIn {
+    text-decoration: none;
+    color: gold;
+}
+
+.github {
+    text-decoration: none;
+    color: gold;
+}
+
+.resume {
+    text-decoration: none;
+    color: gold;
+}
+
+#contact {
+    background-image: linear-gradient(to top left, rgb(115, 115, 115), rgb(50, 50, 50));
+    color: white
+}

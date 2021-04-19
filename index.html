@@ -45,52 +45,68 @@
             </div>
         </div>
         <section id="projects" class="section">
-            <h2 class="sectionHeader">Projects</h2>
             <div class="container">
                 <div class="row">
+                    <div class="col-12">
+                        <h2 class="sectionHeader">Projects</h2>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-4">
-                        <p>This is a happy place, little squirrels live here and play. I started painting as a hobby when I was little. I didn't know I had any talent. I believe talent is just a pursued interest. Anybody can do what I do. I'm sort of a softy, I couldn't shoot Bambi except with a camera.
-
-                            We have all at one time or another mixed some mud. We'll play with clouds today. Just make a decision and let it go.
-                            
-                            Mountains are so simple, they're hard. What the devil. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
-                        </p>
+                        <h4 class="projectHeaders">Static Layout</h4>
+                        <a class="projectItem" href="" target="blank" title="staticLayout"><img src="assets/placeholder.jpeg"></a>
                     </div>
                     <div class="col-4">
-                        <p>This is a happy place, little squirrels live here and play. I started painting as a hobby when I was little. I didn't know I had any talent. I believe talent is just a pursued interest. Anybody can do what I do. I'm sort of a softy, I couldn't shoot Bambi except with a camera.
-
-                            We have all at one time or another mixed some mud. We'll play with clouds today. Just make a decision and let it go.
-                            
-                            Mountains are so simple, they're hard. What the devil. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
-                        </p>
+                        <h4 class="projectHeaders">A simple design using HTML & CSS</h4>
+                        <a class="projectItem" href="" target="blank" title="HTML&CSS"><img src="assets/placeholder.jpeg"></a>
                     </div>
                     <div class="col-4">
-                        <p>This is a happy place, little squirrels live here and play. I started painting as a hobby when I was little. I didn't know I had any talent. I believe talent is just a pursued interest. Anybody can do what I do. I'm sort of a softy, I couldn't shoot Bambi except with a camera.
-
-                            We have all at one time or another mixed some mud. We'll play with clouds today. Just make a decision and let it go.
-                            
-                            Mountains are so simple, they're hard. What the devil. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
-                        </p>
+                        <h4 class="projectHeaders">Pokemon API</h4>
+                        <a class="projectItem" href="" target="blank" title="pokemonAPI"><img src="assets/placeholder.jpeg"></a>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="aboutMe" class="section">
-            <h2 class="sectionHeader">About Me</h2>
+            <div class="container">
+                <div class="row" >
+                    <div class="col-4">
+                        <h4 class="projectHeaders">Second API</h4>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-4">
-                        <p>THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. THIS WILL BE AN IMG. 
-                        </p>
+                        <a class="projectItem" href="" target="blank"><img src="assets/placeholder.jpeg"></a>
                     </div>
-                    <div class="col-8">
-                        <p>This is a happy place, little squirrels live here and play. I started painting as a hobby when I was little. I didn't know I had any talent. I believe talent is just a pursued interest. Anybody can do what I do. I'm sort of a softy, I couldn't shoot Bambi except with a camera.
+                    <div class="col-4">
 
-                            We have all at one time or another mixed some mud. We'll play with clouds today. Just make a decision and let it go.
-                            
-                            Mountains are so simple, they're hard. What the devil. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
-                        </p>
                     </div>
+                    <div class="col-4">
+                        
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="aboutMe" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="sectionHeader">About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                       <div class="picture">
+                           <img src="../portfolio/assets/faceTwo.jpg" class="image">
+                       </div>
+                    </div>
+                    <div class="col-6">
+                        <p>Hello, my name is Dustin. I have just started my career as a developer. I am currently enrolled in Eleven Fifty's Web Development Bootcamp. I have a drive to learn new things and I always try to fully understand things. 
+                        </p>
+                        <p>If you would like, please reach out to me via <a href="https://www.linkedin.com/in/dustin-krontz/" class="linkedIn" id="linkedInAbout" target="blank">LinkedIn</a>, visit my <a href="https://github.com/dtkrontz" class="github" id="linkedInContact" target="blank">GitHub</a>, or download my <a href="https://www.linkedin.com/in/dustin-krontz/" class="resume" id="linkedInContact" target="blank">Resume</a> here or in the contact infomation section below.</p>
+                    </div>
+                    <div class="col-1"></div>
                 </div>
             </div>
         </section>
@@ -104,23 +120,23 @@
                     <form action="https://formspree.io/dtkrontz@gmail.com" method="POST">
                         <div class="control-group">
                             <div class="form-group">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                <label>Name:</label>
+                                <input type="text" class="form-control" placeholder="Your Name:" id="name" required
                                     data-validation-required-message="Please enter your name" name="name">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                <label>Email Address:</label>
+                                <input type="email" class="form-control" placeholder="Your Email:" id="email" required
                                     data-validation-required-message="Please enter your email" name="_replyto">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group">
-                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                <textarea class="form-control" rows="7" placeholder="Your Message:" id="message" required
                                     data-validation-required-message="Please leave a message" name="message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -138,13 +154,20 @@
                     <br>
                     <br>
                     <br>
+                    <br>
                     <h4>Contact Information:</h4>
                     <p>(269) 578.6289</p>
                     <p>dtkrontz@gmail.com</p>
                     <p>Anderson, Indiana</p>
+                    <p><a href="https://www.linkedin.com/in/dustin-krontz/" class="linkedIn" id="linkedInContact" target="blank">LinkedIn</a></p>
+                    <p><a href="https://github.com/dtkrontz" class="github" id="linkedInContact" target="blank">GitHub</a></p>
+                    <p><a href="https://www.linkedin.com/in/dustin-krontz/" class="resume" id="linkedInContact" target="blank">Resume</a></p>
                 </div>
             </div>
             </div>
+        </section>
+        <section id="footer" class="section">
+            <a href="#" id="top">Back to Top</a>
         </section>
     </div>
     

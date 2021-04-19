@@ -1,0 +1,10 @@
+#footer {
+    background-image: linear-gradient(to bottom right, rgb(115, 115, 115), rgb(50, 50, 50));
+    color: white;
+    text-align: center;
+}
+
+#top {
+    text-decoration: none;
+    color: gold;
+}

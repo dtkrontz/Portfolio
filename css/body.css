@@ -6,9 +6,5 @@ body {
 .section {
     padding-top: 5vh;
     padding-bottom: 5vh;
-}
-
-#aboutMe {
-    background-color:  rgb(115, 115, 115);
-    color: white
+    display: block;
 }
