@@ -6,4 +6,5 @@
 .image {
     border: 5px solid black;
     height: 30vh;
+    width: auto;
 }
